@@ -1,0 +1,6 @@
+[submodule "publications"]
+	path = publications
+	url = https://github.com/gillianmchugo/publications
+[submodule "public"]
+	path = public
+	url = https://github.com/gillianmchugo/gillianmchugo.github.io
