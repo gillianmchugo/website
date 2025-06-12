@@ -1,0 +1,11 @@
+# Publication types.
+# Each item in the list corresponds to an item in the language packs.
+types = [ "pub_uncat",
+          "pub_journal_article",
+          "pub_conference_abstract",
+          "pub_conference_poster",
+          "pub_data_set",
+          "pub_preprint",
+          "pub_code",
+          "pub_other"
+        ]

@@ -1,0 +1,44 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: About
+    url: '#about'
+    weight: 10
+  - name: Publications
+    url: '#publications'
+    weight: 20
+  - name: Contact
+    url: '#contact'
+    weight: 30
+  - name: 'CV'
+    identifier: cv
+    weight: 40
+  - name: Download
+    parent: cv
+    url: https://raw.githubusercontent.com/gillianmchugo/cv/main/GillianMcHugoCV.pdf
+    weight: 10
+  - name: View
+    parent: cv
+    url: cv
+    weight: 20
+  - name: More
+    identifier: dropdown-publications
+    weight: 50
+  - name: All publications
+    parent: dropdown-publications
+    url: publication
+    weight: 10
+  - name: Acknowledgements
+    parent: dropdown-publications
+    url: acknowledgement
+    weight: 20
+
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 70
